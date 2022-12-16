@@ -31,7 +31,6 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.lblMeddelande = new System.Windows.Forms.Label();
             this.lblAntal = new System.Windows.Forms.Label();
-            this.lblOutput = new System.Windows.Forms.Label();
             this.txtMessage = new System.Windows.Forms.TextBox();
             this.txtAntal = new System.Windows.Forms.TextBox();
             this.lblOutput = new System.Windows.Forms.Label();
