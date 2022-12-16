@@ -59,9 +59,8 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(711, 379);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(902, 486);
             this.tableLayoutPanel1.TabIndex = 0;
-            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
             // lblMeddelande
             // 
@@ -70,7 +69,7 @@
             this.lblMeddelande.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMeddelande.Location = new System.Drawing.Point(3, 0);
             this.lblMeddelande.Name = "lblMeddelande";
-            this.lblMeddelande.Size = new System.Drawing.Size(393, 143);
+            this.lblMeddelande.Size = new System.Drawing.Size(445, 162);
             this.lblMeddelande.TabIndex = 0;
             this.lblMeddelande.Text = "Meddelande:";
             this.lblMeddelande.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -80,9 +79,9 @@
             this.lblAntal.AutoSize = true;
             this.lblAntal.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblAntal.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAntal.Location = new System.Drawing.Point(3, 143);
+            this.lblAntal.Location = new System.Drawing.Point(3, 162);
             this.lblAntal.Name = "lblAntal";
-            this.lblAntal.Size = new System.Drawing.Size(393, 143);
+            this.lblAntal.Size = new System.Drawing.Size(445, 162);
             this.lblAntal.TabIndex = 1;
             this.lblAntal.Text = "Antal:";
             this.lblAntal.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -91,36 +90,27 @@
             // 
             this.txtMessage.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMessage.Location = new System.Drawing.Point(358, 3);
+            this.txtMessage.Location = new System.Drawing.Point(454, 3);
             this.txtMessage.Name = "txtMessage";
-            this.txtMessage.Size = new System.Drawing.Size(350, 34);
+            this.txtMessage.Size = new System.Drawing.Size(445, 34);
             this.txtMessage.TabIndex = 3;
             // 
             // txtAntal
             // 
             this.txtAntal.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtAntal.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAntal.Location = new System.Drawing.Point(402, 146);
+            this.txtAntal.Location = new System.Drawing.Point(454, 165);
             this.txtAntal.Name = "txtAntal";
-            this.txtAntal.Size = new System.Drawing.Size(350, 34);
+            this.txtAntal.Size = new System.Drawing.Size(445, 34);
             this.txtAntal.TabIndex = 4;
-            // 
-            // lblOutput
-            // 
-            this.lblOutput.AutoSize = true;
-            this.lblOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOutput.Location = new System.Drawing.Point(3, 286);
-            this.lblOutput.Name = "lblOutput";
-            this.lblOutput.Size = new System.Drawing.Size(0, 29);
-            this.lblOutput.TabIndex = 2;
             // 
             // btnCalculate
             // 
             this.btnCalculate.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnCalculate.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalculate.Location = new System.Drawing.Point(402, 289);
+            this.btnCalculate.Location = new System.Drawing.Point(454, 327);
             this.btnCalculate.Name = "btnCalculate";
-            this.btnCalculate.Size = new System.Drawing.Size(393, 137);
+            this.btnCalculate.Size = new System.Drawing.Size(445, 156);
             this.btnCalculate.TabIndex = 5;
             this.btnCalculate.Text = "Beräkna Output";
             this.btnCalculate.UseVisualStyleBackColor = true;
@@ -130,9 +120,9 @@
             this.panelLblOutput.AutoScroll = true;
             this.panelLblOutput.Controls.Add(this.lblOutput);
             this.panelLblOutput.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelLblOutput.Location = new System.Drawing.Point(3, 255);
+            this.panelLblOutput.Location = new System.Drawing.Point(3, 327);
             this.panelLblOutput.Name = "panelLblOutput";
-            this.panelLblOutput.Size = new System.Drawing.Size(349, 121);
+            this.panelLblOutput.Size = new System.Drawing.Size(445, 156);
             this.panelLblOutput.TabIndex = 6;
             // 
             // lblOutput
@@ -150,7 +140,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(711, 379);
+            this.ClientSize = new System.Drawing.Size(902, 486);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Form1";
             this.Text = "Form1";
