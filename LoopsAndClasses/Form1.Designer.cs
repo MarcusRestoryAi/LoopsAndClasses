@@ -33,9 +33,9 @@
             this.lblAntal = new System.Windows.Forms.Label();
             this.txtMessage = new System.Windows.Forms.TextBox();
             this.txtAntal = new System.Windows.Forms.TextBox();
-            this.lblOutput = new System.Windows.Forms.Label();
             this.btnCalculate = new System.Windows.Forms.Button();
             this.panelLblOutput = new System.Windows.Forms.Panel();
+            this.lblOutput = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.panelLblOutput.SuspendLayout();
             this.SuspendLayout();
@@ -105,17 +105,6 @@
             this.txtAntal.Size = new System.Drawing.Size(350, 34);
             this.txtAntal.TabIndex = 4;
             // 
-            // lblOutput
-            // 
-            this.lblOutput.AutoSize = true;
-            this.lblOutput.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOutput.Location = new System.Drawing.Point(0, 0);
-            this.lblOutput.Name = "lblOutput";
-            this.lblOutput.Size = new System.Drawing.Size(60, 29);
-            this.lblOutput.TabIndex = 2;
-            this.lblOutput.Text = "Text";
-            // 
             // btnCalculate
             // 
             this.btnCalculate.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -136,6 +125,17 @@
             this.panelLblOutput.Name = "panelLblOutput";
             this.panelLblOutput.Size = new System.Drawing.Size(349, 121);
             this.panelLblOutput.TabIndex = 6;
+            // 
+            // lblOutput
+            // 
+            this.lblOutput.AutoSize = true;
+            this.lblOutput.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOutput.Location = new System.Drawing.Point(0, 0);
+            this.lblOutput.Name = "lblOutput";
+            this.lblOutput.Size = new System.Drawing.Size(60, 29);
+            this.lblOutput.TabIndex = 2;
+            this.lblOutput.Text = "Text";
             // 
             // Form1
             // 
