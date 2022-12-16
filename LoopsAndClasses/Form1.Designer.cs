@@ -114,6 +114,7 @@
             this.btnCalculate.TabIndex = 5;
             this.btnCalculate.Text = "Beräkna Output";
             this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
             // panelLblOutput
             // 
