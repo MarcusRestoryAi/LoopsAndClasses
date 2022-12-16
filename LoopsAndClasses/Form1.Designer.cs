@@ -34,6 +34,7 @@
             this.lblOutput = new System.Windows.Forms.Label();
             this.txtMessage = new System.Windows.Forms.TextBox();
             this.txtAntal = new System.Windows.Forms.TextBox();
+            this.lblOutput = new System.Windows.Forms.Label();
             this.btnCalculate = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -66,7 +67,7 @@
             this.lblMeddelande.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMeddelande.Location = new System.Drawing.Point(3, 0);
             this.lblMeddelande.Name = "lblMeddelande";
-            this.lblMeddelande.Size = new System.Drawing.Size(393, 142);
+            this.lblMeddelande.Size = new System.Drawing.Size(393, 143);
             this.lblMeddelande.TabIndex = 0;
             this.lblMeddelande.Text = "Meddelande:";
             this.lblMeddelande.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -76,21 +77,12 @@
             this.lblAntal.AutoSize = true;
             this.lblAntal.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblAntal.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAntal.Location = new System.Drawing.Point(3, 142);
+            this.lblAntal.Location = new System.Drawing.Point(3, 143);
             this.lblAntal.Name = "lblAntal";
-            this.lblAntal.Size = new System.Drawing.Size(393, 142);
+            this.lblAntal.Size = new System.Drawing.Size(393, 143);
             this.lblAntal.TabIndex = 1;
             this.lblAntal.Text = "Antal:";
             this.lblAntal.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // lblOutput
-            // 
-            this.lblOutput.AutoSize = true;
-            this.lblOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOutput.Location = new System.Drawing.Point(3, 284);
-            this.lblOutput.Name = "lblOutput";
-            this.lblOutput.Size = new System.Drawing.Size(0, 29);
-            this.lblOutput.TabIndex = 2;
             // 
             // txtMessage
             // 
@@ -105,18 +97,27 @@
             // 
             this.txtAntal.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtAntal.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAntal.Location = new System.Drawing.Point(402, 145);
+            this.txtAntal.Location = new System.Drawing.Point(402, 146);
             this.txtAntal.Name = "txtAntal";
             this.txtAntal.Size = new System.Drawing.Size(393, 34);
             this.txtAntal.TabIndex = 4;
+            // 
+            // lblOutput
+            // 
+            this.lblOutput.AutoSize = true;
+            this.lblOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOutput.Location = new System.Drawing.Point(3, 286);
+            this.lblOutput.Name = "lblOutput";
+            this.lblOutput.Size = new System.Drawing.Size(0, 29);
+            this.lblOutput.TabIndex = 2;
             // 
             // btnCalculate
             // 
             this.btnCalculate.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnCalculate.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalculate.Location = new System.Drawing.Point(402, 287);
+            this.btnCalculate.Location = new System.Drawing.Point(402, 289);
             this.btnCalculate.Name = "btnCalculate";
-            this.btnCalculate.Size = new System.Drawing.Size(393, 139);
+            this.btnCalculate.Size = new System.Drawing.Size(393, 137);
             this.btnCalculate.TabIndex = 5;
             this.btnCalculate.Text = "Beräkna Output";
             this.btnCalculate.UseVisualStyleBackColor = true;
