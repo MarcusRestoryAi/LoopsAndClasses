@@ -35,9 +35,9 @@
             this.txtAntal = new System.Windows.Forms.TextBox();
             this.lblOutput = new System.Windows.Forms.Label();
             this.btnCalculate = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panelLblOutput = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.panelLblOutput.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -50,7 +50,7 @@
             this.tableLayoutPanel1.Controls.Add(this.txtMessage, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.txtAntal, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.btnCalculate, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.panelLblOutput, 0, 2);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -127,15 +127,15 @@
             this.btnCalculate.Text = "Beräkna Output";
             this.btnCalculate.UseVisualStyleBackColor = true;
             // 
-            // panel1
+            // panelLblOutput
             // 
-            this.panel1.AutoScroll = true;
-            this.panel1.Controls.Add(this.lblOutput);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(3, 255);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(349, 121);
-            this.panel1.TabIndex = 6;
+            this.panelLblOutput.AutoScroll = true;
+            this.panelLblOutput.Controls.Add(this.lblOutput);
+            this.panelLblOutput.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelLblOutput.Location = new System.Drawing.Point(3, 255);
+            this.panelLblOutput.Name = "panelLblOutput";
+            this.panelLblOutput.Size = new System.Drawing.Size(349, 121);
+            this.panelLblOutput.TabIndex = 6;
             // 
             // Form1
             // 
@@ -147,8 +147,8 @@
             this.Text = "Form1";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.panelLblOutput.ResumeLayout(false);
+            this.panelLblOutput.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -162,7 +162,7 @@
         private System.Windows.Forms.TextBox txtAntal;
         private System.Windows.Forms.Label lblOutput;
         private System.Windows.Forms.Button btnCalculate;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panelLblOutput;
     }
 }
 
